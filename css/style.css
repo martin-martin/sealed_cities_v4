@@ -1,0 +1,143 @@
+/* General Page Styles first */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.description-item {
+    padding: 0;
+    margin: 0;
+}
+
+.info-box {
+    font-size: 10px;
+    color: gray;
+    border: 1px solid orange;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 145px;
+    left: 346px;
+}
+
+strong {
+    color: black;
+    font-weight: lighter;
+}
+
+.highlight {
+    color: orange;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:focus {
+    outline: 1px solid orange;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 95px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: white;
+  border: 0;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.visualization {
+    display: flex;
+    justify-content: space-around;
+    align-items: bottom;
+}
+
+.legend {
+    text-align: center;
+    font-size: 10px;
+}
+
+.legend-image {
+    width: 20px;
+    height: 20px;
+}
+
+.legend-desc {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    color: gray;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 515px;
+}
+
+.modal-description {
+    padding-left: 10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.mosaic {
+    float: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

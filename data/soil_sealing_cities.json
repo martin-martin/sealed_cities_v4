@@ -1,0 +1,302 @@
+[
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Cyprus", 
+    "cat_25_to_49_percent": 0, 
+    "sum_of_cities": 2, 
+    "cat_50_to_74_percent": 2, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 100, 
+    "total_sealed_in_percent": 62.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Estonia", 
+    "cat_25_to_49_percent": 0, 
+    "sum_of_cities": 2, 
+    "cat_50_to_74_percent": 2, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 100, 
+    "total_sealed_in_percent": 62.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Luxembourg", 
+    "cat_25_to_49_percent": 0, 
+    "sum_of_cities": 1, 
+    "cat_50_to_74_percent": 1, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 100, 
+    "total_sealed_in_percent": 62.0
+  }, 
+  {
+    "cat_75_and_above_percent": 2, 
+    "country": "Greece", 
+    "cat_25_to_49_percent": 1, 
+    "sum_of_cities": 10, 
+    "cat_50_to_74_percent": 7, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 90, 
+    "total_sealed_in_percent": 65.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Hungary", 
+    "cat_25_to_49_percent": 1, 
+    "sum_of_cities": 9, 
+    "cat_50_to_74_percent": 8, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 89, 
+    "total_sealed_in_percent": 59.0
+  }, 
+  {
+    "cat_75_and_above_percent": 2, 
+    "country": "Romania", 
+    "cat_25_to_49_percent": 3, 
+    "sum_of_cities": 27, 
+    "cat_50_to_74_percent": 22, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 89, 
+    "total_sealed_in_percent": 61.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Slovakia", 
+    "cat_25_to_49_percent": 1, 
+    "sum_of_cities": 8, 
+    "cat_50_to_74_percent": 7, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 88, 
+    "total_sealed_in_percent": 59.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Croatia", 
+    "cat_25_to_49_percent": 1, 
+    "sum_of_cities": 5, 
+    "cat_50_to_74_percent": 4, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 80, 
+    "total_sealed_in_percent": 57.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Poland", 
+    "cat_25_to_49_percent": 10, 
+    "sum_of_cities": 45, 
+    "cat_50_to_74_percent": 35, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 78, 
+    "total_sealed_in_percent": 56.0
+  }, 
+  {
+    "cat_75_and_above_percent": 5, 
+    "country": "Spain", 
+    "cat_25_to_49_percent": 13, 
+    "sum_of_cities": 60, 
+    "cat_50_to_74_percent": 41, 
+    "cat_below_25_percent": 1, 
+    "percentage_cities_50_and_above_percent": 77, 
+    "total_sealed_in_percent": 58.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Bulgaria", 
+    "cat_25_to_49_percent": 2, 
+    "sum_of_cities": 8, 
+    "cat_50_to_74_percent": 6, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 75, 
+    "total_sealed_in_percent": 56.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Czech Republic", 
+    "cat_25_to_49_percent": 4, 
+    "sum_of_cities": 14, 
+    "cat_50_to_74_percent": 10, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 71, 
+    "total_sealed_in_percent": 55.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Germany", 
+    "cat_25_to_49_percent": 25, 
+    "sum_of_cities": 85, 
+    "cat_50_to_74_percent": 60, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 71, 
+    "total_sealed_in_percent": 55.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Latvia", 
+    "cat_25_to_49_percent": 1, 
+    "sum_of_cities": 3, 
+    "cat_50_to_74_percent": 2, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 67, 
+    "total_sealed_in_percent": 54.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Ireland", 
+    "cat_25_to_49_percent": 2, 
+    "sum_of_cities": 5, 
+    "cat_50_to_74_percent": 3, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 60, 
+    "total_sealed_in_percent": 52.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Lithuania", 
+    "cat_25_to_49_percent": 2, 
+    "sum_of_cities": 5, 
+    "cat_50_to_74_percent": 3, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 60, 
+    "total_sealed_in_percent": 52.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Italy", 
+    "cat_25_to_49_percent": 20, 
+    "sum_of_cities": 49, 
+    "cat_50_to_74_percent": 29, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 59, 
+    "total_sealed_in_percent": 52.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "The Netherlands", 
+    "cat_25_to_49_percent": 15, 
+    "sum_of_cities": 35, 
+    "cat_50_to_74_percent": 20, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 57, 
+    "total_sealed_in_percent": 51.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "France", 
+    "cat_25_to_49_percent": 14, 
+    "sum_of_cities": 31, 
+    "cat_50_to_74_percent": 17, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 55, 
+    "total_sealed_in_percent": 51.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Portugal", 
+    "cat_25_to_49_percent": 10, 
+    "sum_of_cities": 19, 
+    "cat_50_to_74_percent": 9, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 47, 
+    "total_sealed_in_percent": 49.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Austria", 
+    "cat_25_to_49_percent": 3, 
+    "sum_of_cities": 5, 
+    "cat_50_to_74_percent": 2, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 40, 
+    "total_sealed_in_percent": 47.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Belgium", 
+    "cat_25_to_49_percent": 4, 
+    "sum_of_cities": 7, 
+    "cat_50_to_74_percent": 2, 
+    "cat_below_25_percent": 1, 
+    "percentage_cities_50_and_above_percent": 29, 
+    "total_sealed_in_percent": 41.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Switzerland", 
+    "cat_25_to_49_percent": 3, 
+    "sum_of_cities": 4, 
+    "cat_50_to_74_percent": 1, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 25, 
+    "total_sealed_in_percent": 43.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Denmark", 
+    "cat_25_to_49_percent": 3, 
+    "sum_of_cities": 4, 
+    "cat_50_to_74_percent": 1, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 25, 
+    "total_sealed_in_percent": 43.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "United Kingdom", 
+    "cat_25_to_49_percent": 94, 
+    "sum_of_cities": 106, 
+    "cat_50_to_74_percent": 11, 
+    "cat_below_25_percent": 1, 
+    "percentage_cities_50_and_above_percent": 10, 
+    "total_sealed_in_percent": 39.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Finland", 
+    "cat_25_to_49_percent": 4, 
+    "sum_of_cities": 4, 
+    "cat_50_to_74_percent": 0, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 0, 
+    "total_sealed_in_percent": 37.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Malta", 
+    "cat_25_to_49_percent": 1, 
+    "sum_of_cities": 2, 
+    "cat_50_to_74_percent": 0, 
+    "cat_below_25_percent": 1, 
+    "percentage_cities_50_and_above_percent": 0, 
+    "total_sealed_in_percent": 25.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Norway", 
+    "cat_25_to_49_percent": 6, 
+    "sum_of_cities": 6, 
+    "cat_50_to_74_percent": 0, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 0, 
+    "total_sealed_in_percent": 37.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Sweden", 
+    "cat_25_to_49_percent": 10, 
+    "sum_of_cities": 12, 
+    "cat_50_to_74_percent": 0, 
+    "cat_below_25_percent": 2, 
+    "percentage_cities_50_and_above_percent": 0, 
+    "total_sealed_in_percent": 33.0
+  }, 
+  {
+    "cat_75_and_above_percent": 0, 
+    "country": "Slovenia", 
+    "cat_25_to_49_percent": 2, 
+    "sum_of_cities": 2, 
+    "cat_50_to_74_percent": 0, 
+    "cat_below_25_percent": 0, 
+    "percentage_cities_50_and_above_percent": 0, 
+    "total_sealed_in_percent": 37.0
+  }
+]

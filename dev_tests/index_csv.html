@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sealed Cities</title>
+        <script type="text/javascript" src="d3/d3.v3.js"></script>
+        <style type="text/css">
+            .example {
+                display: flex;
+                flex-wrap: wrap;
+                width: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+          // importing the csv file
+          d3.csv('soil_sealing_cities.csv', function(error, data) {
+            ////
+            //// PART 1 - DATA CLEANING
+            ////
+            // fun to check for "null" values, and if so transform to the integer 0
+            function nullcheck(d, col_old, col_new) {
+                if (col_new === 'null') {
+                  // assign new integer value 0
+                  col_new = 0;
+                } else {
+                  // transform string representation to integer
+                  col_new = +d[col_old];
+                };
+              };
+            // perform the data wrangling for each row
+            data.forEach(function(d) {
+              d.country = d.nuts0;
+              // apply the nullcheck() func to the columns that might have "null" values
+              nullcheck(d, "< 25 %", d.cat_below_25_percent);
+              nullcheck(d, "25-49 %", d.cat_25_to_49_percent);
+              nullcheck(d, "50-74 %", d.cat_50_to_74_percent);
+              nullcheck(d, ">= 75 %", d.cat_75_and_above_percent);
+              // transform string to integer
+              d.sum_of_cities = +d.sum;
+              d.percentage_cities_50_and_above_percent = d["percentage of cities >=50%"];
+              });
+            ////
+            //// PART 2 - DRAWING BARS
+            ////
+            // starting to draw on the page
+            // at first a heading
+            d3.select('body').append('h1').text('Statistics on soil sealing in European cities');
+            // THIS WILL GO - currently checking for one integer value to be represented in a bar chart
+            d3.select('body').append('h2').text('Amount of cities investigated by country');
+            d3.select('body').append('div').attr('class', 'container');
+            // logic of appending the div-bars
+            d3.select('.container').selectAll('div')
+              .data(data)
+              .enter()
+              .append('div')
+              // "United Kingdom" was too long a string for one representation within a bar
+              // so I took it as an example to try using functions
+              .text(function(d) {
+                  if (d.country === "United Kingdom") {
+                      return "U.K.";
+                  } else {
+                  return d.country;
+                  }
+                })
+              // originally using the percentage_cities_50_and_above_percent value
+              // but in the newer input this is not (yet) an integer
+              // therefore, just for fun, the (non-fitting) sum_of_cities variable (int!)
+              .style('width', function(d) {
+                  return d.sum_of_cities + '%'
+              })
+              // make them bar-like. this could be done in CSS instead
+              .style('color', 'black')
+              .style('background-color', 'red')
+              .style('border-color', 'white')
+              .style('border-style', 'solid')
+              .style('border-width', '1px');
+            ////
+            //// PART 3 - DRAWING HOUSES AND TREES
+            ////
+            d3.select('body').append('span').attr('class', 'example');
+
+
+
+
+            //MISSING: ADD THE PYTHON CALCULATED COLUMN VALUES!
+            // i guess i should write this in JS and then perform it at the start.
+
+
+
+
+            // modify the initial data
+            data.forEach(function(d){
+                    // calling the function to generate the range for each row entry
+                    d.num_blocks = d3.range(0,d.total_sealed_in_percent,1);
+                    d.num_squares = d3.range(0,100 - d.total_sealed_in_percent,1);
+            })
+
+            // insert a div for each row
+            var rows = d3.select('.example').selectAll('div')
+                .data(data, function(d, i) {
+                    // binding a kew to each row. It is not really necessary on this example
+                    // but I will leave it here to make the use of key functions clear
+                    return "row_" + i;
+                })
+                .enter()
+                .append('div');
+
+            // insert imgs with class block in each row
+            var blocks = rows.selectAll('.block')
+                    .data(function (d){
+                        return d.num_blocks
+                    })
+                    .enter()
+                    .append('img')
+                        .attr('class', 'block')
+                        .attr('src', 'img/little_house2.png')
+                        .attr('alt', 'example block')
+                        .style('width', '40px')
+                        .style('height', '40px')
+
+            // insert imgs with class squares in each row
+            var squares = rows.selectAll('.square')
+                    .data(function (d){
+                        return d.num_squares
+                    })
+                    .enter()
+                    .append('img')
+                        .attr('class', 'square')
+                        .attr('src', 'img/tree.svg')
+                        .attr('alt', 'example square')
+                        .style('width', '40px')
+                        .style('height', '40px');
+
+          //// AND HERE IT ALL ENDS
+          });
+        </script>
+    </body>
+</html>
